@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Parse ETH",
+  "description": "Parse ETH to human readable numbers",
+  "version": "0.0.3",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
