@@ -4,6 +4,8 @@ if (typeof parseEth === 'undefined') {
             const number = window.getSelection().toString();
             const result = parseInt(number) / 10e17
 
+            if (number.startsWith('0x')) return;
+
             if (isNaN(result) || result == 0 || result < 0.009) {
                 return
             }
