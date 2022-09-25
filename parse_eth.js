@@ -17,8 +17,13 @@ if (typeof parseEth === 'undefined') {
             node.style.backgroundColor = 'red';
             node.style.color = 'black'
             node.style.borderRadius = '5px';
-            node.style.fontSize = '1.4em';
-            node.style.padding = '3px';
+            node.style.fontSize = '1.2em';
+            node.style.padding = '0 5px 0 5px';
+            node.style.backgroundColor = 'black';
+            node.style.color = 'white'
+            node.style.borderRadius = '8px';
+            node.style.marginTop = '8px';
+
             node.appendChild(document.createTextNode(`${result} ETH`));
 
             document.body.appendChild(node);
